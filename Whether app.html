@@ -103,7 +103,7 @@ body{
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter city Name" spellcheck="false">
-            <button><img src="search.png"></button>
+            <button><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6qTFoO9qnvsX-9fjpNo-0_FV0oVXD_03pFQ&usqp=CAU"></button>
         </div>
         <div class="error">
             <p>Invalid City Name</p>
@@ -114,14 +114,14 @@ body{
             <h2 class="city">Delhi</h2>
             <div class="details">
                 <div class="col">
-                    <img src="humidity.png">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7y6G-ktSICBiahp4tcPJbjnHwjct_qWfY3g&usqp=CAU">
                     <div>
                         <p class="humidity">50%</p>
                         <p>Humidity</p>
                     </div>
                 </div>
                 <div class="col">
-                    <img src="wind.png">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYT8JxG7n6LrBQ5xK8pe6xIDtOzr-rhrzg_w&usqp=CAU">
                     <div>
                         <p class="wind">15 km/h</p>
                         <p>wind-speed</p>
@@ -154,15 +154,15 @@ body{
                     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
                     if (data.weather[0].main == "Clouds") {
-                        weatherIcon.src = "clouds.png";
+                        weatherIcon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGd8nF2CMc31V_KJeAaODfJO2yHYe7h1j08g&usqp=CAU";
                     } else if (data.weather[0].main == "Clear") {
-                        weatherIcon.src = "clear.png";
+                        weatherIcon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRThQ5OrrdIvWu2mQzcN2FXd9UbU_mUpA9rGQ&usqp=CAU";
                     } else if (data.weather[0].main == "Rain") {
-                        weatherIcon.src = "rain.png";
+                        weatherIcon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6FtufDknq8U7L6jI-FwHPWf4wi24DT07Og&usqp=CAU";
                     } else if (data.weather[0].main == "Drizzle") {
-                        weatherIcon.src = "Drizzle.png";
+                        weatherIcon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_YosMBWm0Xl3dect-eQOlhniGN2aBQeqDrQ&usqp=CAU";
                     } else if (data.weather[0].main == "Mist") {
-                        weatherIcon.src = "mist.png";
+                        weatherIcon.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJx9JWCzuLMX7RL61gfdxZngre1sBTE4St5pcvyJAts7IMiV3DOt1MNrtwgVzZwtVmvvU&usqp=CAU";
                     }
 
                     document.querySelector(".weather").style.display = "block";
